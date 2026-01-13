@@ -1,0 +1,12 @@
+# Assign values to different variables and print their data types using type().
+
+a = 10      #int
+b = 3.45    #float
+c = "Hello" #String
+d = True    #bool
+
+#Printing the type of each variable
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
