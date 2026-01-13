@@ -1,0 +1,6 @@
+#Take user input for name and age, then display them.
+name = input("Enter a name: ")
+age = int(input("Enter an age: "))  #Taking the user input for name and age. Converting age to int explicitly
+
+print("Name: ",name)
+print("Age: ",age)  #Printing the name and age
