@@ -1,0 +1,2 @@
+#Write a Python program to print "Welcome to Python Training!"
+print("Welcome to Python Training!") #This prints the string "Welcome to Python Training!" on the console
