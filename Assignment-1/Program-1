@@ -1,6 +1,0 @@
-#write a for loop program to print 4 in string format 4 times.
-
-a = input("Enter a number: ")   #The input() function by default takes input from the user in a String format
-for i in range(int(a)):         #The for loop iterates for 'a' number of times. Here, we manually converted 'a' into integer data type to get its actual value
-    print(a)                    #Printing the value of the string stored in the variable a for 'a' no.of times
-print(type(a))                  #We can confirm that the data type of the variable being printed is a string with the help of type() function

@@ -1,0 +1,6 @@
+#write a for loop program to print 4 in string format 4 times.
+
+n = input("Enter a number: ")   #The input() function by default takes input from the user in a String format
+for i in range(int(n)):         #The for loop iterates for 'n' number of times. Here, we manually converted 'n' into integer data type to get its actual value
+    print(n)                    #Printing the value of the string stored in the variable a for 'n' no.of times
+print(type(n))                  #We can confirm that the data type of the variable being printed is a string with the help of type() function
