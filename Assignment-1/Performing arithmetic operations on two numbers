@@ -1,0 +1,27 @@
+#Take two integers as input from the user and perform arithmetic operations on them
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))    #Taking an input of two numbers
+
+if b == 0:
+	print("The value of b cannot be zero.")     #If the inpout is zero,we must warn the user that it cannot be zero
+elif isinstance(a,str) or isinstance(b,str):    #Checking the data type of the input with the help of isinstance() function
+	print("a and b must be of the type int.")   #If it's a string, we must warn the user that it must be of the type int.
+else:              
+	print("Addition: ",a+b)         #Performing Arithmetic Operations like addition, subtraction, multiplication and division
+	print("Subtraction: ",a-b)
+	print("Multiplication: ",a*b)
+	print("Division: ",a/b)
+	
+#Second method:
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+
+if b == 0:
+	print("The value of b cannot be zero.")
+elif type(a) is str or type(b) is str:    #Using type() function to check the data type of the input
+	print("a and b must be of the type int.")
+else:
+	print("Addition: ",a+b)
+	print("Subtraction: ",a-b)
+	print("Multiplication: ",a*b)
+	print("Division: ",a/b)
