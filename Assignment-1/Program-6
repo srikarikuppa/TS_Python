@@ -1,0 +1,8 @@
+#Convert an integer to a float and vice versa.
+a = 12          #Taking an integer variable
+b = float(a)    #Converting it into float
+print(b)        #Printing its value
+print(type(b))  #Printing its type
+c = int(b)      #Converting it into integer type
+print(c)        #Printing its value
+print(type(c))  #Printing its type
