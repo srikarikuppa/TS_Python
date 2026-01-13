@@ -1,0 +1,7 @@
+#Use input function and give True as input and check if it is Boolean if no print its data type.
+
+s = input("Enter an input: ")  #We take an input from the user and store it in a variable 's'. It is stored as a String by default
+if(isinstance(s,bool)):        # With the isinstance() function, we check if it is of boolean data type
+    print("It is True. It is of Boolean data type")
+else:                               #As the if condition is false, it comes to the else block
+    print("Data type: ",type(s))    #We are printing the data type of the input stored in 's'
