@@ -1,0 +1,39 @@
+#Write a program that:
+#Accepts a list of integers from the user
+#Adds an element to the list
+#Removes an element from the list
+#Modifies an element at a specified index
+#Performs an addition operation on two elements at user-specified indices and prints the sum
+
+#User input containing a list of integers
+l = list(map(int,input("Enter a list of integers seperated by space: ").split()))
+
+#The list initially before any operations performed on it
+print("The list of integers as given by user: ", l)
+
+#Addition of a new element
+a = int(input("Enter an element to be added: "))
+l.append(a)
+print("The list after adding the specified element: ",l)
+
+#Removing an element
+b = int(input("Enter an element to be removed: "))
+l.remove(b)
+print("The list after removing the specified element: ",l)
+
+#Modifying an element
+i = int(input("Enter an index to be modified: "))
+c = int(input("Enter a new value: "))
+l[i] = c
+print("The list after modifying the value at the specified index: ",l)
+
+#Addition of two user-specified elements from the list
+print("Addition is going to be performed on two elements that you specify from the list: ")
+x = int(input("Enter the index of the first number: "))
+y = int(input("Enter the index of the second number: "))
+s = l[x] + l[y]
+print("The sum of the two numbers is: ",s)
+
+#Printing the final list
+print("The final list is: ",l)
+
