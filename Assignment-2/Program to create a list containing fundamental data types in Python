@@ -2,15 +2,15 @@
 #in Python and print it.
 #Ensure it does not cause errors by handling unsupported types.
 
-l = []
+l = []              #Creating an empty list
 
-l.append(12)
+l.append(12)        #Appending different data types to the list
 l.append(7.53)
 l.append("Hello")
 l.append(True)
 
 for i in l:
     if isinstance(i,(int,float,str,bool)):
-        print("Value: ",i," Type: ",type(i))
+        print("Value: ",i," Type: ",type(i))    #Printing the value and data type if they are valid
     else:
-        print("Invalid Data Type: "+i)
+        print("Invalid Data Type: "+i)      #If not valid, a warning message is shown to the programmer
