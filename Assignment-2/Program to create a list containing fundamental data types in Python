@@ -1,0 +1,16 @@
+#Write a program to create a list containing different fundamental data types 
+#in Python and print it.
+#Ensure it does not cause errors by handling unsupported types.
+
+l = []
+
+l.append(12)
+l.append(7.53)
+l.append("Hello")
+l.append(True)
+
+for i in l:
+    if isinstance(i,(int,float,str,bool)):
+        print("Value: ",i," Type: ",type(i))
+    else:
+        print("Invalid Data Type: "+i)
