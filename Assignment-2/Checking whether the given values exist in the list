@@ -1,0 +1,18 @@
+#take a list and two values from the user check if that value exists in the list or not
+
+#Taking a list as input from the user
+l = list(map(int,input("Enter a list of elements seperated by commas: ").split(",")))
+v1 = int(input("Enter a value: "))
+v2 = int(input("Enter another value: "))    #Taking two values as input from the user
+
+#Checking for the first value
+if v1 in l: 
+    print(v1, "exists in the list")
+else:
+    print(v1, "does not exist in the list")
+
+#Checking for the second value
+if v2 in l:
+    print(v2, "exists in the list")
+else:
+    print(v2, "does not exist in the list")
